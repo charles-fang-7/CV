@@ -158,6 +158,15 @@ p.lead {
 section.resume-section .resume-item .resume-date {
   min-width: none;
 }
+div.resume-content {
+	width: 50%;
+	float: left;
+}
+div.resume-date{
+	width: 50%;
+	float: left;
+}
+
 
 @media (min-width: 768px) {
   section.resume-section {
@@ -189,4 +198,15 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+div.project-image {
+	width: 40%;
+	float: left;
+	margin-left: 10%;
+}
+
+div.project-description {
+	width: 50%;
+	float: right;
 }
