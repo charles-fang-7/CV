@@ -159,11 +159,11 @@ section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 div.resume-content {
-	width: 50%;
+	width: 100%;
 	float: left;
 }
 div.resume-date{
-	width: 50%;
+	width: 100%;
 	float: left;
 }
 
@@ -175,6 +175,24 @@ div.resume-date{
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
+	div.project-image {
+		width: 40%;
+		float: left;
+		margin-left: 10%;
+	}
+
+	div.project-description {
+		width: 50%;
+		float: right;
+	}
+	div.resume-content {
+		width: 50%;
+		float: left;
+	}
+	div.resume-date{
+		width: 50%;
+		float: left;
+	}
 }
 
 /*@media (min-width: 992px) {
@@ -213,14 +231,5 @@ div.project-description {
 }
 
 @media (min-width: 768px) {
-	div.project-image {
-		width: 40%;
-		float: left;
-		margin-left: 10%;
-	}
 
-	div.project-description {
-		width: 50%;
-		float: right;
-	}
 }
