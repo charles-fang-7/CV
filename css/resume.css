@@ -23,9 +23,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';/*'Saira Extra Condensed'*/
   font-weight: 700;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #343a40;
 }
 
@@ -48,7 +48,7 @@ p.lead {
 }
 
 .subheading {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 500;
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.5rem;
@@ -201,12 +201,26 @@ a:hover, a:focus, a:active {
 }
 
 div.project-image {
-	width: 40%;
+	max-width: 100%;
+	width: 100%;
 	float: left;
-	margin-left: 10%;
 }
 
 div.project-description {
-	width: 50%;
+	width: 100%;
 	float: right;
+	margin-bottom: 1em;
+}
+
+@media (min-width: 768px) {
+	div.project-image {
+		width: 40%;
+		float: left;
+		margin-left: 10%;
+	}
+
+	div.project-description {
+		width: 50%;
+		float: right;
+	}
 }
